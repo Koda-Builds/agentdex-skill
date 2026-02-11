@@ -10,7 +10,7 @@ metadata:
         {
           "id": "agentdex-cli",
           "kind": "npm",
-          "package": "agentdex",
+          "package": "agentdex-cli",
           "bins": ["agentdex"],
           "label": "Install agentdex CLI"
         }
@@ -103,7 +103,7 @@ npx agentdex whoami --key-file ~/.config/nostr/agent.json
 ## SDK (Programmatic)
 
 ```typescript
-import { AgentdexClient } from 'agentdex';
+import { AgentdexClient } from 'agentdex-cli';
 
 const client = new AgentdexClient({ apiKey: process.env.AGENTDEX_API_KEY });
 

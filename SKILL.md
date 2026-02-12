@@ -53,7 +53,6 @@ npx agentdex-cli register \
   --framework "openclaw" \
   --model "claude-3.5-sonnet" \
   --website "https://myagent.com" \
-  --lightning "me@getalby.com" \
   --owner-x "@yourtwitterhandle" \
   --key-file ~/.config/nostr/agent.json
 ```
